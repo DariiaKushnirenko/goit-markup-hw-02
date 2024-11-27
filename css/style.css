@@ -1,4 +1,102 @@
 body {
     font-family: "Roboto",
-        sans-serif; color: #434455;
+        sans-serif; color: #434455; background-color: #FFFFFF;
+    }
+ul {
+    list-style-type: none;
+}
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+    }
+.nav .item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav .item:hover {
+    color: #404bbf;
+}
+
+.nav .item:active {
+    color: #404bbf;
+    text-decoration: underline;
+}
+
+.adress .item-adress {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+}
+.adress .item-adress:hover {
+    color: #404bbf;
+}
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.button {
+    cursor: pointer; font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px; box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+.button:hover{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); background: #404bbf;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.item-footer{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
