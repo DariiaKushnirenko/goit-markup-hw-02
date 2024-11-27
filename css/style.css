@@ -10,6 +10,25 @@ a {
     text-decoration: none;
     color: inherit;
     }
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5; 
+}
+
+.nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
 .nav .item {
     font-weight: 500;
     font-size: 16px;
@@ -18,7 +37,7 @@ a {
     color: #2e2f42;
 }
 
-.nav .item:hover {
+.nav .item:hover, .nav .item:focus{
     color: #404bbf;
 }
 
@@ -27,7 +46,7 @@ a {
     text-decoration: underline;
 }
 
-.adress .item-adress {
+.address .item-address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -35,7 +54,7 @@ a {
     color: #434455;
     font-style: normal;
 }
-.adress .item-adress:hover {
+.address .item-address:hover,.adress .item-address:focus {
     color: #404bbf;
 }
 .title {
