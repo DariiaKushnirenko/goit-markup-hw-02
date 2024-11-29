@@ -54,18 +54,23 @@ a {
     color: #434455;
     font-style: normal;
 }
-.address .item-address:hover,.adress .item-address:focus {
+.address .item-address:hover,.address .item-address:focus {
     color: #404bbf; font-style: normal;
+}
+.hero {
+    background-color:#2e2f42;
 }
 .title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 .button {
+    font-family: "Roboto",
+    sans-serif;
     cursor: pointer; font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -73,7 +78,9 @@ a {
     color: #fff;
     background: #4d5ae5;
 }
-.button:hover{
+.button:hover,.button:focus{
+    font-family: "Roboto",
+    sans-serif;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -85,24 +92,50 @@ a {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
-h3 {
+.section-header{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-p {
+.description{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+ 
+}
+.team-section{
+    background-color: #f4f4fd;;
+}
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.portfolio-header
+        {font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;}
+
+.footer{
+    background-color: #2e2f42;
 }
 .item-footer{
     font-weight: 400;
