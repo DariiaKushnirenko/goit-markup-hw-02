@@ -45,7 +45,9 @@ a {
     color: #404bbf;
     text-decoration: underline;
 }
-
+.address {
+    font-style: normal
+}
 .address .item-address {
     font-weight: 400;
     font-size: 16px;
@@ -124,7 +126,9 @@ h2 {
     color: #2e2f42;
     text-transform: capitalize;
 }
-
+.team-image {
+    background-color: #FFFFFF
+}
 .portfolio-header
         {font-weight: 700;
         font-size: 36px;
